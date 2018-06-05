@@ -1,6 +1,7 @@
 variables:
   JEKYLL_ENV: production
   GIT_SUBMODULE_STRATEGY: recursive
+  GIT_DEPTH: "3"
 
 pages:
   stage: deploy
