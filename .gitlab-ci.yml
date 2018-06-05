@@ -1,0 +1,15 @@
+variables:
+  JEKYLL_ENV: production
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  stage: deploy
+  script:
+    - exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  tags:
+    - jekyll
+  only:
+    - gh-pages
