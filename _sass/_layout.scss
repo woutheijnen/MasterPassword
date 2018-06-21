@@ -46,6 +46,15 @@ h3 {
     font-size:              1.5em;
     font-weight:            400;
 }
+h4 {
+}
+h5 {
+    margin:                 0;
+
+    font-size:              0.8em;
+    text-align:             center;
+    color:                  rgba(200, 200, 200, 1);
+}
 hr {
     margin:                 2em -2em 1em;
 }
@@ -149,7 +158,6 @@ header {
     nav:last-child {
         align-content:      space-evenly;
 
-        color: black;
         color:              white;
         text-shadow:        0 1px 1px white;
         text-shadow:        0 1px 1px black;
@@ -194,6 +202,7 @@ section {
 footer {
     padding:                2em 20px;
 
+    border-top:             1px solid rgba(200, 200, 200, 1);
     background:             rgba(240, 240, 240, 1);
 
     @media screen and (min-width: 1024px) {
@@ -214,7 +223,7 @@ footer {
 
     p {
         font-size:          smaller;
-        color:             rgba(180, 180, 180, 1);
+        color:              rgba(180, 180, 180, 1);
     }
 }
 input {
