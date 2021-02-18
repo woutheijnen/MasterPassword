@@ -1,1 +1,1 @@
-mpw-2.6-cli-5-0-g344771db.tar.gz.sig
+mpw-2.7-cli-1-0-gd5959582.tar.gz.sig
