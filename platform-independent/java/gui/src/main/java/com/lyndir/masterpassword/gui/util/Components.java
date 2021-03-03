@@ -212,7 +212,7 @@ public abstract class Components {
             @Override
             public String getString(final int where, final int len)
                     throws BadLocationException {
-                return "";
+                return new String( new char[this.length()] );
             }
         } ), null, 0 ) {
             {
