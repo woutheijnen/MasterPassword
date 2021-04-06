@@ -82,6 +82,28 @@ nav {
         }
     }
 }
+#spectre {
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
+    height:                 2em;
+    transition:             all .38s ease-in 0s;
+    background:             #0E3345 url("https://spectre.app/images/iphone.png") no-repeat 107% 53%;
+    color:                  #41A0A0;
+    border-bottom:          1px solid #173D50;
+
+    &:hover {
+        height:             5em;
+    }
+
+    p {
+        margin:             0;
+    }
+
+    a, a:link, a:visited, a:hover {
+        color:              #F0FFFF;
+    }
+}
 header, section {
     width:                  100%;
 }
@@ -131,7 +153,7 @@ header {
         text-align:         center;
     }
     nav:first-child {
-        position:           fixed;
+        position:           absolute;
         padding:            0 20px;
         margin:             0;
         left:               0;
